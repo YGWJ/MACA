@@ -52,10 +52,8 @@
 //添加注册按钮
 - (void)addRegisterBtn
 {
-    _registerBtn.frame = CGRectMake((ScreenWidth - RegisterBtnWidth) / 2, _loginBtn.frame.origin.y - 20 - LoginBtnHeight, RegisterBtnWidth, RegisterBtnHeight);
     [_registerBtn.layer setMasksToBounds:YES];
     [_registerBtn.layer setCornerRadius:10.0];
-    _registerBtn.backgroundColor = [UIColor blueColor];
     [_registerBtn setTitle:@"注册" forState:UIControlStateNormal];
     
 }
@@ -63,11 +61,9 @@
 //添加登陆按钮
 - (void)addLoginBtn
 {
-    _loginBtn.frame = CGRectMake((ScreenWidth - LoginBtnWidth) / 2, ScreenHeight - 44 - 20 -LoginBtnHeight, LoginBtnWidth, LoginBtnHeight);
     [_loginBtn setTitle:@"登陆" forState:UIControlStateNormal];
     [_loginBtn.layer setMasksToBounds:YES];
     [_loginBtn.layer setCornerRadius:10.0];
-    _loginBtn.backgroundColor = [UIColor blueColor];
 
 }
 
@@ -92,7 +88,6 @@
 }
 
 #pragma mark - Table view data source
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
@@ -111,7 +106,6 @@
     }
     
     cell.textLabel.text = _dataArray[indexPath.row];
-    
     
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
