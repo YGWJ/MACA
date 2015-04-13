@@ -9,7 +9,7 @@
 #import "LoginViewController.h"
 
 //第一次同步信息试试
-
+//第二次同步
 @interface LoginViewController ()
 
 @end
