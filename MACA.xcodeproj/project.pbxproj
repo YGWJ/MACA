@@ -10,6 +10,12 @@
 		2134FA9D1AD611EE008DE994 /* Person.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2134FA9C1AD611EE008DE994 /* Person.plist */; };
 		21574A461ADBFA0700C55CB7 /* icon_lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A441ADBFA0700C55CB7 /* icon_lock@2x.png */; };
 		21574A471ADBFA0700C55CB7 /* icon_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A451ADBFA0700C55CB7 /* icon_phone@2x.png */; };
+		21574A831ADC012B00C55CB7 /* discover_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A7D1ADC012B00C55CB7 /* discover_selected@2x.png */; };
+		21574A841ADC012B00C55CB7 /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A7E1ADC012B00C55CB7 /* discover@2x.png */; };
+		21574A851ADC012B00C55CB7 /* home_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A7F1ADC012B00C55CB7 /* home_selected@2x.png */; };
+		21574A861ADC012B00C55CB7 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A801ADC012B00C55CB7 /* home@2x.png */; };
+		21574A871ADC012B00C55CB7 /* person_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A811ADC012B00C55CB7 /* person_selected@2x.png */; };
+		21574A881ADC012B00C55CB7 /* person@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A821ADC012B00C55CB7 /* person@2x.png */; };
 		21610E0D1ADB4F5F004CB9F2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21610E0B1ADB4F5F004CB9F2 /* RegisterViewController.m */; };
 		21610E0E1ADB4F5F004CB9F2 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21610E0C1ADB4F5F004CB9F2 /* RegisterViewController.xib */; };
 		21610E121ADB59F4004CB9F2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21610E101ADB59F4004CB9F2 /* LoginViewController.m */; };
@@ -67,6 +73,12 @@
 		2134FA9C1AD611EE008DE994 /* Person.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Person.plist; sourceTree = "<group>"; };
 		21574A441ADBFA0700C55CB7 /* icon_lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lock@2x.png"; sourceTree = "<group>"; };
 		21574A451ADBFA0700C55CB7 /* icon_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_phone@2x.png"; sourceTree = "<group>"; };
+		21574A7D1ADC012B00C55CB7 /* discover_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover_selected@2x.png"; sourceTree = "<group>"; };
+		21574A7E1ADC012B00C55CB7 /* discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@2x.png"; sourceTree = "<group>"; };
+		21574A7F1ADC012B00C55CB7 /* home_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_selected@2x.png"; sourceTree = "<group>"; };
+		21574A801ADC012B00C55CB7 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		21574A811ADC012B00C55CB7 /* person_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person_selected@2x.png"; sourceTree = "<group>"; };
+		21574A821ADC012B00C55CB7 /* person@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person@2x.png"; sourceTree = "<group>"; };
 		21610E0A1ADB4F5F004CB9F2 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		21610E0B1ADB4F5F004CB9F2 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		21610E0C1ADB4F5F004CB9F2 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
@@ -152,9 +164,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21574A481ADBFDCE00C55CB7 /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				21574A7D1ADC012B00C55CB7 /* discover_selected@2x.png */,
+				21574A7E1ADC012B00C55CB7 /* discover@2x.png */,
+				21574A7F1ADC012B00C55CB7 /* home_selected@2x.png */,
+				21574A801ADC012B00C55CB7 /* home@2x.png */,
+				21574A811ADC012B00C55CB7 /* person_selected@2x.png */,
+				21574A821ADC012B00C55CB7 /* person@2x.png */,
+			);
+			path = Dock;
+			sourceTree = "<group>";
+		};
 		F869B46E1AB5331500666FA2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				21574A481ADBFDCE00C55CB7 /* Dock */,
 				F869B46F1AB5331500666FA2 /* Baby */,
 				F869B4701AB5331500666FA2 /* Cloud */,
 				F869B4711AB5331500666FA2 /* Other */,
@@ -454,10 +480,13 @@
 				F869B4831AB5557400666FA2 /* introduce@2x.png in Resources */,
 				F8727E691AB3355400E29E21 /* PersonMainViewController.xib in Resources */,
 				F8727E1C1AB327D800E29E21 /* LaunchScreen.xib in Resources */,
+				21574A831ADC012B00C55CB7 /* discover_selected@2x.png in Resources */,
 				F869B47D1AB5540600666FA2 /* rearing@2x.png in Resources */,
+				21574A841ADC012B00C55CB7 /* discover@2x.png in Resources */,
 				21610E131ADB59F4004CB9F2 /* LoginViewController.xib in Resources */,
 				F869B4811AB5550B00666FA2 /* character@2x.png in Resources */,
 				F889AB1F1AB570070075A294 /* leftBack@2x.png in Resources */,
+				21574A871ADC012B00C55CB7 /* person_selected@2x.png in Resources */,
 				F869B4791AB552AA00666FA2 /* doctor@2x.png in Resources */,
 				21574A471ADBFA0700C55CB7 /* icon_phone@2x.png in Resources */,
 				F8727E5F1AB3352A00E29E21 /* BabyMainViewController.xib in Resources */,
@@ -471,8 +500,11 @@
 				F83DB0991AB5E09A00D78E80 /* lookDoctor@2x.png in Resources */,
 				F869B47B1AB5536500666FA2 /* information@2x.png in Resources */,
 				F83DB0971AB5DF3400D78E80 /* child@2x.png in Resources */,
+				21574A881ADC012B00C55CB7 /* person@2x.png in Resources */,
 				F8727E641AB3354200E29E21 /* FindMainViewController.xib in Resources */,
+				21574A851ADC012B00C55CB7 /* home_selected@2x.png in Resources */,
 				F8727E571AB32F6C00E29E21 /* CloudMainViewController.xib in Resources */,
+				21574A861ADC012B00C55CB7 /* home@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
