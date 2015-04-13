@@ -29,14 +29,14 @@
     //手机号框
     _phoneNumTF.placeholder = @"手机号";
     [_phoneNumTF setBorderStyle:UITextBorderStyleRoundedRect];
-    UIImageView *phoneImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"introduce.png"]];
+    UIImageView *phoneImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"icon_phone.png"]];
     _phoneNumTF.leftView = phoneImg;
     _phoneNumTF.leftViewMode = UITextFieldViewModeAlways;
     
     //密码框
     _passwordTF.placeholder = @"密码";
     [_passwordTF setBorderStyle:UITextBorderStyleRoundedRect];
-    UIImageView *passwordImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"introduce.png"]];
+    UIImageView *passwordImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"icon_lock.png"]];
     _passwordTF.leftView = passwordImg;
     _passwordTF.leftViewMode = UITextFieldViewModeAlways;
     
