@@ -8,6 +8,8 @@
 
 #import "LoginViewController.h"
 
+//第一次同步信息试试
+
 @interface LoginViewController ()
 
 @end
