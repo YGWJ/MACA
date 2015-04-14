@@ -9,6 +9,7 @@
 #import "PersonMainViewController.h"
 #import "RegisterViewController.h"
 #import "LoginViewController.h"
+#import "AboutViewController.h"
 
 //注册按钮宽高
 #define RegisterBtnWidth ScreenWidth * 0.8
@@ -18,7 +19,7 @@
 #define LoginBtnHeight 40
 
 
-@interface PersonMainViewController ()
+@interface PersonMainViewController () <UITableViewDelegate,UITableViewDataSource>
 {
     NSArray *_dataArray;
 
@@ -98,12 +99,43 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
     }
     
+    
     cell.textLabel.text = _dataArray[indexPath.row];
     
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
     
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UIViewController *viewController = nil;
+    switch (indexPath.row) {
+        case 0: {
+            
+            break;
+            
+        }
+        case 1: {
+            
+            break;
+            
+        }
+        case 2: {
+           
+            break;
+            
+        }
+        case 3: {
+            viewController = (AboutViewController *)[[AboutViewController alloc] init];
+            break;
+            
+        }
+        default:
+            break;
+    }
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 @end

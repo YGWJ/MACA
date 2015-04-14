@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2114AC161ADD4E7800C21648 /* baby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114AC151ADD4E7800C21648 /* baby@2x.png */; };
 		2114AC181ADD509D00C21648 /* baby_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114AC171ADD509D00C21648 /* baby_selected@2x.png */; };
+		2114AC1C1ADD566E00C21648 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2114AC1A1ADD566E00C21648 /* AboutViewController.m */; };
+		2114AC1D1ADD566E00C21648 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2114AC1B1ADD566E00C21648 /* AboutViewController.xib */; };
 		211E0F1A1ADCF9AE008A55CD /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211E0F191ADCF9AE008A55CD /* logo@2x.png */; };
 		211E0F1E1ADCFAB3008A55CD /* personIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211E0F1D1ADCFAB3008A55CD /* personIcon@2x.png */; };
 		211E0F211ADCFB97008A55CD /* localperson_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211E0F1F1ADCFB97008A55CD /* localperson_selected@2x.png */; };
@@ -80,6 +82,9 @@
 /* Begin PBXFileReference section */
 		2114AC151ADD4E7800C21648 /* baby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baby@2x.png"; sourceTree = "<group>"; };
 		2114AC171ADD509D00C21648 /* baby_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baby_selected@2x.png"; sourceTree = "<group>"; };
+		2114AC191ADD566E00C21648 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		2114AC1A1ADD566E00C21648 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		2114AC1B1ADD566E00C21648 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		211E0F191ADCF9AE008A55CD /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		211E0F1D1ADCFAB3008A55CD /* personIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personIcon@2x.png"; sourceTree = "<group>"; };
 		211E0F1F1ADCFB97008A55CD /* localperson_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "localperson_selected@2x.png"; sourceTree = "<group>"; };
@@ -398,6 +403,9 @@
 		F8727E351AB3296E00E29E21 /* Person */ = {
 			isa = PBXGroup;
 			children = (
+				2114AC191ADD566E00C21648 /* AboutViewController.h */,
+				2114AC1A1ADD566E00C21648 /* AboutViewController.m */,
+				2114AC1B1ADD566E00C21648 /* AboutViewController.xib */,
 				F8727E651AB3355400E29E21 /* PersonMainViewController.h */,
 				F8727E661AB3355400E29E21 /* PersonMainViewController.m */,
 				F8727E671AB3355400E29E21 /* PersonMainViewController.xib */,
@@ -546,6 +554,7 @@
 				21574A851ADC012B00C55CB7 /* home_selected@2x.png in Resources */,
 				F8727E571AB32F6C00E29E21 /* CloudMainViewController.xib in Resources */,
 				211E0F1E1ADCFAB3008A55CD /* personIcon@2x.png in Resources */,
+				2114AC1D1ADD566E00C21648 /* AboutViewController.xib in Resources */,
 				21574A861ADC012B00C55CB7 /* home@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,6 +595,7 @@
 				F8727E561AB32F6C00E29E21 /* CloudMainViewController.m in Sources */,
 				21BAF16C1ADCB824009147B5 /* ForgetViewController.m in Sources */,
 				F8727E391AB329B600E29E21 /* AppDelegate.m in Sources */,
+				2114AC1C1ADD566E00C21648 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
