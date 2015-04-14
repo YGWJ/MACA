@@ -18,7 +18,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"用户登录";
+    UIButton *itemBtn4 = [[UIButton alloc] initWithFrame:CGRectMake(17, 5, 10.5, 18)];
+    [itemBtn4 setBackgroundImage:[UIImage imageNamed:@"leftBack.png"] forState:UIControlStateNormal];
+    [itemBtn4 addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *back = [[UIBarButtonItem alloc] initWithCustomView:itemBtn4];
+    self.navigationItem.leftBarButtonItem= back;
+    
     [self addUI];
+}
+
+- (void) back
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)addUI
@@ -44,7 +57,6 @@
     [_loginBtn setTitle:@"登陆" forState:UIControlStateNormal];
     [_loginBtn.layer setMasksToBounds:YES];
     [_loginBtn.layer setCornerRadius:10.0];
-    _loginBtn.backgroundColor = [UIColor blueColor];
 
 }
 
