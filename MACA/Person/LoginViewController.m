@@ -7,6 +7,8 @@
 //
 
 #import "LoginViewController.h"
+#import "ForgetViewController.h"
+
 
 //第一次同步信息试试
 //第二次同步
@@ -44,8 +46,6 @@
     [_loginBtn setTitle:@"登陆" forState:UIControlStateNormal];
     [_loginBtn.layer setMasksToBounds:YES];
     [_loginBtn.layer setCornerRadius:10.0];
-    _loginBtn.backgroundColor = [UIColor blueColor];
-
 }
 
 - (IBAction)loginBtnClick:(id)sender {
@@ -53,8 +53,12 @@
 }
 
 - (IBAction)forgetBtnClick:(id)sender {
+    ForgetViewController *forgetVC = [[ForgetViewController alloc] init];
+    [self.navigationController pushViewController:forgetVC animated:YES];
     NSLog(@"忘记密码");
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

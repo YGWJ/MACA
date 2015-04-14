@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211E0F1A1ADCF9AE008A55CD /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211E0F191ADCF9AE008A55CD /* logo@2x.png */; };
+		211E0F1E1ADCFAB3008A55CD /* personIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211E0F1D1ADCFAB3008A55CD /* personIcon@2x.png */; };
+		211E0F211ADCFB97008A55CD /* localperson_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211E0F1F1ADCFB97008A55CD /* localperson_selected@2x.png */; };
+		211E0F221ADCFB97008A55CD /* localperson@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211E0F201ADCFB97008A55CD /* localperson@2x.png */; };
 		2134FA9D1AD611EE008DE994 /* Person.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2134FA9C1AD611EE008DE994 /* Person.plist */; };
 		21574A461ADBFA0700C55CB7 /* icon_lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A441ADBFA0700C55CB7 /* icon_lock@2x.png */; };
 		21574A471ADBFA0700C55CB7 /* icon_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A451ADBFA0700C55CB7 /* icon_phone@2x.png */; };
@@ -14,12 +18,14 @@
 		21574A841ADC012B00C55CB7 /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A7E1ADC012B00C55CB7 /* discover@2x.png */; };
 		21574A851ADC012B00C55CB7 /* home_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A7F1ADC012B00C55CB7 /* home_selected@2x.png */; };
 		21574A861ADC012B00C55CB7 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A801ADC012B00C55CB7 /* home@2x.png */; };
-		21574A871ADC012B00C55CB7 /* person_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A811ADC012B00C55CB7 /* person_selected@2x.png */; };
-		21574A881ADC012B00C55CB7 /* person@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A821ADC012B00C55CB7 /* person@2x.png */; };
 		21610E0D1ADB4F5F004CB9F2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21610E0B1ADB4F5F004CB9F2 /* RegisterViewController.m */; };
 		21610E0E1ADB4F5F004CB9F2 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21610E0C1ADB4F5F004CB9F2 /* RegisterViewController.xib */; };
 		21610E121ADB59F4004CB9F2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21610E101ADB59F4004CB9F2 /* LoginViewController.m */; };
 		21610E131ADB59F4004CB9F2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21610E111ADB59F4004CB9F2 /* LoginViewController.xib */; };
+		21BAF16C1ADCB824009147B5 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF16A1ADCB824009147B5 /* ForgetViewController.m */; };
+		21BAF16D1ADCB824009147B5 /* ForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21BAF16B1ADCB824009147B5 /* ForgetViewController.xib */; };
+		21BAF1711ADCBC55009147B5 /* ForgetViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF16F1ADCBC55009147B5 /* ForgetViewController2.m */; };
+		21BAF1721ADCBC55009147B5 /* ForgetViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21BAF1701ADCBC55009147B5 /* ForgetViewController2.xib */; };
 		F83DB08D1AB5AAF800D78E80 /* ChoseBabyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83DB08C1AB5AAF800D78E80 /* ChoseBabyViewController.m */; };
 		F83DB0901AB5AFFA00D78E80 /* AddBabyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83DB08F1AB5AFFA00D78E80 /* AddBabyViewController.m */; };
 		F83DB0971AB5DF3400D78E80 /* child@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F83DB0961AB5DF3400D78E80 /* child@2x.png */; };
@@ -70,6 +76,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		211E0F191ADCF9AE008A55CD /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		211E0F1D1ADCFAB3008A55CD /* personIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personIcon@2x.png"; sourceTree = "<group>"; };
+		211E0F1F1ADCFB97008A55CD /* localperson_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "localperson_selected@2x.png"; sourceTree = "<group>"; };
+		211E0F201ADCFB97008A55CD /* localperson@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "localperson@2x.png"; sourceTree = "<group>"; };
 		2134FA9C1AD611EE008DE994 /* Person.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Person.plist; sourceTree = "<group>"; };
 		21574A441ADBFA0700C55CB7 /* icon_lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lock@2x.png"; sourceTree = "<group>"; };
 		21574A451ADBFA0700C55CB7 /* icon_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_phone@2x.png"; sourceTree = "<group>"; };
@@ -77,14 +87,18 @@
 		21574A7E1ADC012B00C55CB7 /* discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@2x.png"; sourceTree = "<group>"; };
 		21574A7F1ADC012B00C55CB7 /* home_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_selected@2x.png"; sourceTree = "<group>"; };
 		21574A801ADC012B00C55CB7 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
-		21574A811ADC012B00C55CB7 /* person_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person_selected@2x.png"; sourceTree = "<group>"; };
-		21574A821ADC012B00C55CB7 /* person@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person@2x.png"; sourceTree = "<group>"; };
 		21610E0A1ADB4F5F004CB9F2 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		21610E0B1ADB4F5F004CB9F2 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		21610E0C1ADB4F5F004CB9F2 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		21610E0F1ADB59F4004CB9F2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		21610E101ADB59F4004CB9F2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		21610E111ADB59F4004CB9F2 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		21BAF1691ADCB824009147B5 /* ForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
+		21BAF16A1ADCB824009147B5 /* ForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
+		21BAF16B1ADCB824009147B5 /* ForgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetViewController.xib; sourceTree = "<group>"; };
+		21BAF16E1ADCBC55009147B5 /* ForgetViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetViewController2.h; sourceTree = "<group>"; };
+		21BAF16F1ADCBC55009147B5 /* ForgetViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController2.m; sourceTree = "<group>"; };
+		21BAF1701ADCBC55009147B5 /* ForgetViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetViewController2.xib; sourceTree = "<group>"; };
 		F83DB08B1AB5AAF800D78E80 /* ChoseBabyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoseBabyViewController.h; sourceTree = "<group>"; };
 		F83DB08C1AB5AAF800D78E80 /* ChoseBabyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoseBabyViewController.m; sourceTree = "<group>"; };
 		F83DB08E1AB5AFFA00D78E80 /* AddBabyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBabyViewController.h; sourceTree = "<group>"; };
@@ -164,15 +178,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211E0F181ADCF867008A55CD /* RegisterAndLogin */ = {
+			isa = PBXGroup;
+			children = (
+				21610E0A1ADB4F5F004CB9F2 /* RegisterViewController.h */,
+				21610E0B1ADB4F5F004CB9F2 /* RegisterViewController.m */,
+				21610E0C1ADB4F5F004CB9F2 /* RegisterViewController.xib */,
+				21610E0F1ADB59F4004CB9F2 /* LoginViewController.h */,
+				21610E101ADB59F4004CB9F2 /* LoginViewController.m */,
+				21610E111ADB59F4004CB9F2 /* LoginViewController.xib */,
+				21BAF1691ADCB824009147B5 /* ForgetViewController.h */,
+				21BAF16A1ADCB824009147B5 /* ForgetViewController.m */,
+				21BAF16B1ADCB824009147B5 /* ForgetViewController.xib */,
+				21BAF16E1ADCBC55009147B5 /* ForgetViewController2.h */,
+				21BAF16F1ADCBC55009147B5 /* ForgetViewController2.m */,
+				21BAF1701ADCBC55009147B5 /* ForgetViewController2.xib */,
+			);
+			name = RegisterAndLogin;
+			sourceTree = "<group>";
+		};
 		21574A481ADBFDCE00C55CB7 /* Dock */ = {
 			isa = PBXGroup;
 			children = (
+				211E0F1F1ADCFB97008A55CD /* localperson_selected@2x.png */,
+				211E0F201ADCFB97008A55CD /* localperson@2x.png */,
 				21574A7D1ADC012B00C55CB7 /* discover_selected@2x.png */,
 				21574A7E1ADC012B00C55CB7 /* discover@2x.png */,
 				21574A7F1ADC012B00C55CB7 /* home_selected@2x.png */,
 				21574A801ADC012B00C55CB7 /* home@2x.png */,
-				21574A811ADC012B00C55CB7 /* person_selected@2x.png */,
-				21574A821ADC012B00C55CB7 /* person@2x.png */,
 			);
 			path = Dock;
 			sourceTree = "<group>";
@@ -226,6 +259,8 @@
 		F869B4721AB5331500666FA2 /* Person */ = {
 			isa = PBXGroup;
 			children = (
+				211E0F1D1ADCFAB3008A55CD /* personIcon@2x.png */,
+				211E0F191ADCF9AE008A55CD /* logo@2x.png */,
 				21574A441ADBFA0700C55CB7 /* icon_lock@2x.png */,
 				21574A451ADBFA0700C55CB7 /* icon_phone@2x.png */,
 				2134FA9C1AD611EE008DE994 /* Person.plist */,
@@ -360,12 +395,7 @@
 				F8727E651AB3355400E29E21 /* PersonMainViewController.h */,
 				F8727E661AB3355400E29E21 /* PersonMainViewController.m */,
 				F8727E671AB3355400E29E21 /* PersonMainViewController.xib */,
-				21610E0A1ADB4F5F004CB9F2 /* RegisterViewController.h */,
-				21610E0B1ADB4F5F004CB9F2 /* RegisterViewController.m */,
-				21610E0C1ADB4F5F004CB9F2 /* RegisterViewController.xib */,
-				21610E0F1ADB59F4004CB9F2 /* LoginViewController.h */,
-				21610E101ADB59F4004CB9F2 /* LoginViewController.m */,
-				21610E111ADB59F4004CB9F2 /* LoginViewController.xib */,
+				211E0F181ADCF867008A55CD /* RegisterAndLogin */,
 			);
 			path = Person;
 			sourceTree = "<group>";
@@ -478,15 +508,17 @@
 			files = (
 				F83DB09B1AB5E1C100D78E80 /* top@2x.png in Resources */,
 				F869B4831AB5557400666FA2 /* introduce@2x.png in Resources */,
+				211E0F211ADCFB97008A55CD /* localperson_selected@2x.png in Resources */,
 				F8727E691AB3355400E29E21 /* PersonMainViewController.xib in Resources */,
 				F8727E1C1AB327D800E29E21 /* LaunchScreen.xib in Resources */,
 				21574A831ADC012B00C55CB7 /* discover_selected@2x.png in Resources */,
 				F869B47D1AB5540600666FA2 /* rearing@2x.png in Resources */,
+				211E0F221ADCFB97008A55CD /* localperson@2x.png in Resources */,
+				21BAF1721ADCBC55009147B5 /* ForgetViewController2.xib in Resources */,
 				21574A841ADC012B00C55CB7 /* discover@2x.png in Resources */,
 				21610E131ADB59F4004CB9F2 /* LoginViewController.xib in Resources */,
 				F869B4811AB5550B00666FA2 /* character@2x.png in Resources */,
 				F889AB1F1AB570070075A294 /* leftBack@2x.png in Resources */,
-				21574A871ADC012B00C55CB7 /* person_selected@2x.png in Resources */,
 				F869B4791AB552AA00666FA2 /* doctor@2x.png in Resources */,
 				21574A471ADBFA0700C55CB7 /* icon_phone@2x.png in Resources */,
 				F8727E5F1AB3352A00E29E21 /* BabyMainViewController.xib in Resources */,
@@ -500,10 +532,12 @@
 				F83DB0991AB5E09A00D78E80 /* lookDoctor@2x.png in Resources */,
 				F869B47B1AB5536500666FA2 /* information@2x.png in Resources */,
 				F83DB0971AB5DF3400D78E80 /* child@2x.png in Resources */,
-				21574A881ADC012B00C55CB7 /* person@2x.png in Resources */,
+				211E0F1A1ADCF9AE008A55CD /* logo@2x.png in Resources */,
+				21BAF16D1ADCB824009147B5 /* ForgetViewController.xib in Resources */,
 				F8727E641AB3354200E29E21 /* FindMainViewController.xib in Resources */,
 				21574A851ADC012B00C55CB7 /* home_selected@2x.png in Resources */,
 				F8727E571AB32F6C00E29E21 /* CloudMainViewController.xib in Resources */,
+				211E0F1E1ADCFAB3008A55CD /* personIcon@2x.png in Resources */,
 				21574A861ADC012B00C55CB7 /* home@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,9 +572,11 @@
 				F8727E4B1AB32B6400E29E21 /* NSString+WJ.m in Sources */,
 				F889AB1D1AB56F0A0075A294 /* WebViewController.m in Sources */,
 				F8727E0E1AB327D800E29E21 /* main.m in Sources */,
+				21BAF1711ADCBC55009147B5 /* ForgetViewController2.m in Sources */,
 				F83DB08D1AB5AAF800D78E80 /* ChoseBabyViewController.m in Sources */,
 				F8727E4C1AB32B6400E29E21 /* UIButton+WJ.m in Sources */,
 				F8727E561AB32F6C00E29E21 /* CloudMainViewController.m in Sources */,
+				21BAF16C1ADCB824009147B5 /* ForgetViewController.m in Sources */,
 				F8727E391AB329B600E29E21 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

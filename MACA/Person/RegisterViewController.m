@@ -22,9 +22,6 @@
 
 - (void)addUI
 {
-    //头像
-    _icon.image = [UIImage imageNamed:@"rearing.png"];
-
     
     //手机号框
     _phoneNumTF.placeholder = @"手机号";
@@ -44,7 +41,7 @@
     [_registerBtn setTitle:@"注册" forState:UIControlStateNormal];
     [_registerBtn.layer setMasksToBounds:YES];
     [_registerBtn.layer setCornerRadius:10.0];
-    _registerBtn.backgroundColor = [UIColor blueColor];
+   
 }
 
 

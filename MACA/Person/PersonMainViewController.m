@@ -37,16 +37,9 @@
     [super viewDidLoad];
     self.title = @"个人中心";
     [self loadPlist];
-    [self addIconView];
     [self addRegisterBtn];
     [self addLoginBtn];
     
-}
-
-//添加头像
-- (void)addIconView
-{
-    _iconView.image =[UIImage imageNamed:@"rearing.png"];
 }
 
 //添加注册按钮

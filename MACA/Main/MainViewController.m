@@ -106,7 +106,7 @@
     [self.dock addItemWithIcon:@"home.png" andTitle:@"云医"];
     [self.dock addItemWithIcon:@"baby.png" andTitle:@"幼儿"];
     [self.dock addItemWithIcon:@"discover.png" andTitle:@"发现"];
-    [self.dock addItemWithIcon:@"person.png" andTitle:@"个人"];
+    [self.dock addItemWithIcon:@"localperson.png" andTitle:@"个人"];
     UIView *viewLine = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 1)];
     [viewLine setBackgroundColor:[Tools colorWithRed:221 angGreen:221 andBlue:221]];
     [self.dock addSubview:viewLine];

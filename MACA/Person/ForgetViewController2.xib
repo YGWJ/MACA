@@ -5,12 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ForgetViewController2">
             <connections>
-                <outlet property="icon" destination="Zrm-GY-ALi" id="nNK-ZR-5yM"/>
-                <outlet property="passwordTF" destination="mxu-2c-b9D" id="wTc-O9-5zm"/>
-                <outlet property="phoneNumTF" destination="le3-jx-qf7" id="w4S-xJ-n4M"/>
-                <outlet property="registerBtn" destination="oJI-jh-VtL" id="ePT-1d-1Jx"/>
+                <outlet property="confirmBtn" destination="vsT-Tp-9lY" id="zUe-iL-nzW"/>
+                <outlet property="confirmPwdTF" destination="NxK-0s-ngU" id="apM-VI-GPR"/>
+                <outlet property="pwdTF" destination="Rch-Tn-PyE" id="KSR-jv-I72"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,49 +18,36 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" id="Zrm-GY-ALi">
-                    <rect key="frame" x="125" y="90" width="70" height="70"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" id="le3-jx-qf7">
-                    <rect key="frame" x="32" y="190" width="256" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                    <connections>
-                        <outlet property="delegate" destination="-1" id="oga-vM-kPP"/>
-                    </connections>
-                </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" id="mxu-2c-b9D">
-                    <rect key="frame" x="32" y="250" width="256" height="30"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" id="Rch-Tn-PyE">
+                    <rect key="frame" x="32" y="120" width="256" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                    <connections>
-                        <outlet property="delegate" destination="-1" id="8ao-Aj-xxz"/>
-                    </connections>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oJI-jh-VtL">
-                    <rect key="frame" x="32" y="310" width="256" height="40"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" id="NxK-0s-ngU">
+                    <rect key="frame" x="32" y="200" width="256" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vsT-Tp-9lY">
+                    <rect key="frame" x="32" y="270" width="256" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.17048773710000001" green="0.76428987989999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="注册">
+                    <state key="normal" title="确认">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="regiterBtnClick:" destination="-1" eventType="touchUpInside" id="Vwf-8f-Idi"/>
+                        <action selector="confirmBtnClick:" destination="-1" eventType="touchUpInside" id="SRj-oB-pjW"/>
                     </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="140" y="154"/>
+            <point key="canvasLocation" x="225" y="362"/>
         </view>
     </objects>
-    <resources>
-        <image name="logo.png" width="70" height="70"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
