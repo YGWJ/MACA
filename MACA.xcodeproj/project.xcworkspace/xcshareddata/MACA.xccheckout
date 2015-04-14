@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1089611D-DEE3-4553-9EFE-F2E507C53C64</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MACA</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>36501E5D9897C115C4C10F2B34DAFF7B108CC6ED</key>
+		<string>https://github.com/YGWJ/MACA.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MACA.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>36501E5D9897C115C4C10F2B34DAFF7B108CC6ED</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/YGWJ/MACA.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>36501E5D9897C115C4C10F2B34DAFF7B108CC6ED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>36501E5D9897C115C4C10F2B34DAFF7B108CC6ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MACA</string>
+		</dict>
+	</array>
+</dict>
+</plist>
