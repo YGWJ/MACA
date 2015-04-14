@@ -16,9 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"用户注册";
+    
+    UIButton *itemBtn4 = [[UIButton alloc] initWithFrame:CGRectMake(17, 5, 10.5, 18)];
+    [itemBtn4 setBackgroundImage:[UIImage imageNamed:@"leftBack.png"] forState:UIControlStateNormal];
+    [itemBtn4 addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *back = [[UIBarButtonItem alloc] initWithCustomView:itemBtn4];
+    self.navigationItem.leftBarButtonItem= back;
+    
     [self addUI];
 }
 
+- (void) back
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 - (void)addUI
 {
@@ -41,7 +54,10 @@
     [_registerBtn setTitle:@"注册" forState:UIControlStateNormal];
     [_registerBtn.layer setMasksToBounds:YES];
     [_registerBtn.layer setCornerRadius:10.0];
+<<<<<<< HEAD
    
+=======
+>>>>>>> origin/master
 }
 
 
