@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2114AC161ADD4E7800C21648 /* baby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114AC151ADD4E7800C21648 /* baby@2x.png */; };
+		2114AC181ADD509D00C21648 /* baby_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114AC171ADD509D00C21648 /* baby_selected@2x.png */; };
 		211E0F1A1ADCF9AE008A55CD /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211E0F191ADCF9AE008A55CD /* logo@2x.png */; };
 		211E0F1E1ADCFAB3008A55CD /* personIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211E0F1D1ADCFAB3008A55CD /* personIcon@2x.png */; };
 		211E0F211ADCFB97008A55CD /* localperson_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211E0F1F1ADCFB97008A55CD /* localperson_selected@2x.png */; };
@@ -76,6 +78,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2114AC151ADD4E7800C21648 /* baby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baby@2x.png"; sourceTree = "<group>"; };
+		2114AC171ADD509D00C21648 /* baby_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baby_selected@2x.png"; sourceTree = "<group>"; };
 		211E0F191ADCF9AE008A55CD /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		211E0F1D1ADCFAB3008A55CD /* personIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personIcon@2x.png"; sourceTree = "<group>"; };
 		211E0F1F1ADCFB97008A55CD /* localperson_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "localperson_selected@2x.png"; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 		21574A481ADBFDCE00C55CB7 /* Dock */ = {
 			isa = PBXGroup;
 			children = (
+				2114AC171ADD509D00C21648 /* baby_selected@2x.png */,
+				2114AC151ADD4E7800C21648 /* baby@2x.png */,
 				211E0F1F1ADCFB97008A55CD /* localperson_selected@2x.png */,
 				211E0F201ADCFB97008A55CD /* localperson@2x.png */,
 				21574A7D1ADC012B00C55CB7 /* discover_selected@2x.png */,
@@ -512,6 +518,7 @@
 				211E0F211ADCFB97008A55CD /* localperson_selected@2x.png in Resources */,
 				F8727E691AB3355400E29E21 /* PersonMainViewController.xib in Resources */,
 				F8727E1C1AB327D800E29E21 /* LaunchScreen.xib in Resources */,
+				2114AC161ADD4E7800C21648 /* baby@2x.png in Resources */,
 				21574A831ADC012B00C55CB7 /* discover_selected@2x.png in Resources */,
 				F869B47D1AB5540600666FA2 /* rearing@2x.png in Resources */,
 				211E0F221ADCFB97008A55CD /* localperson@2x.png in Resources */,
@@ -528,6 +535,7 @@
 				F8727E191AB327D800E29E21 /* Images.xcassets in Resources */,
 				F869B47F1AB5548D00666FA2 /* train@2x.png in Resources */,
 				F869B4751AB5332C00666FA2 /* hospital@2x.png in Resources */,
+				2114AC181ADD509D00C21648 /* baby_selected@2x.png in Resources */,
 				21574A461ADBFA0700C55CB7 /* icon_lock@2x.png in Resources */,
 				F83DB0991AB5E09A00D78E80 /* lookDoctor@2x.png in Resources */,
 				F869B47B1AB5536500666FA2 /* information@2x.png in Resources */,
