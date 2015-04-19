@@ -27,7 +27,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor blackColor]];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     //1.导入其他控制器的view
     [self addAllChildViewControllers];
     //2.初始化Dock

@@ -45,7 +45,6 @@
 		F869B4831AB5557400666FA2 /* introduce@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F869B4821AB5557400666FA2 /* introduce@2x.png */; };
 		F8727E0E1AB327D800E29E21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8727E0D1AB327D800E29E21 /* main.m */; };
 		F8727E191AB327D800E29E21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8727E181AB327D800E29E21 /* Images.xcassets */; };
-		F8727E1C1AB327D800E29E21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8727E1A1AB327D800E29E21 /* LaunchScreen.xib */; };
 		F8727E281AB327D800E29E21 /* MACATests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8727E271AB327D800E29E21 /* MACATests.m */; };
 		F8727E391AB329B600E29E21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8727E381AB329B600E29E21 /* AppDelegate.m */; };
 		F8727E421AB32A5100E29E21 /* Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = F8727E3B1AB32A5100E29E21 /* Dock.m */; };
@@ -137,7 +136,6 @@
 		F8727E0C1AB327D800E29E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8727E0D1AB327D800E29E21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8727E181AB327D800E29E21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F8727E1B1AB327D800E29E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F8727E211AB327D800E29E21 /* MACATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MACATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8727E261AB327D800E29E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8727E271AB327D800E29E21 /* MACATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MACATests.m; sourceTree = "<group>"; };
@@ -347,7 +345,6 @@
 				F8727E351AB3296E00E29E21 /* Person */,
 				F8727E341AB3296E00E29E21 /* Main */,
 				F8727E181AB327D800E29E21 /* Images.xcassets */,
-				F8727E1A1AB327D800E29E21 /* LaunchScreen.xib */,
 				F8727E0B1AB327D800E29E21 /* Supporting Files */,
 			);
 			path = MACA;
@@ -585,7 +582,6 @@
 				F869B4831AB5557400666FA2 /* introduce@2x.png in Resources */,
 				211E0F211ADCFB97008A55CD /* localperson_selected@2x.png in Resources */,
 				F8727E691AB3355400E29E21 /* PersonMainViewController.xib in Resources */,
-				F8727E1C1AB327D800E29E21 /* LaunchScreen.xib in Resources */,
 				2114AC161ADD4E7800C21648 /* baby@2x.png in Resources */,
 				21574A831ADC012B00C55CB7 /* discover_selected@2x.png in Resources */,
 				F869B47D1AB5540600666FA2 /* rearing@2x.png in Resources */,
@@ -687,17 +683,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		F8727E1A1AB327D800E29E21 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8727E1B1AB327D800E29E21 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		F8727E291AB327D800E29E21 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -779,11 +764,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = MACA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -791,11 +780,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = MACA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

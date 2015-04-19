@@ -26,6 +26,7 @@
 
 @implementation ServiceManage
 
+//获取单例
 +(instancetype)shareInstance{
     static ServiceManage *serviceManage = nil;
     static dispatch_once_t onceToken;
