@@ -26,6 +26,16 @@
 		21574A861ADC012B00C55CB7 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21574A801ADC012B00C55CB7 /* home@2x.png */; };
 		21610E0D1ADB4F5F004CB9F2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21610E0B1ADB4F5F004CB9F2 /* RegisterViewController.m */; };
 		21610E121ADB59F4004CB9F2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21610E101ADB59F4004CB9F2 /* LoginViewController.m */; };
+		217621301AE6262C0089CFAD /* LookDoctorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2176212F1AE6262C0089CFAD /* LookDoctorCell.m */; };
+		217621321AE632110089CFAD /* DoctorIntroduce.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217621311AE632110089CFAD /* DoctorIntroduce.plist */; };
+		217621351AE6428E0089CFAD /* DoctorData.m in Sources */ = {isa = PBXBuildFile; fileRef = 217621341AE6428E0089CFAD /* DoctorData.m */; };
+		218F0FD21AE5371C00B5912E /* doctor_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 218F0FD11AE5371C00B5912E /* doctor_icon@2x.png */; };
+		218F0FD61AE537BB00B5912E /* LookDoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218F0FD41AE537BB00B5912E /* LookDoctorViewController.m */; };
+		218F0FD71AE537BB00B5912E /* LookDoctorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218F0FD51AE537BB00B5912E /* LookDoctorViewController.xib */; };
+		219161BE1AE5E875001A282B /* LookDoctorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219161BD1AE5E875001A282B /* LookDoctorCell.xib */; };
+		219161C81AE5F9B9001A282B /* DoctorIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219161C61AE5F9B9001A282B /* DoctorIntroduceViewController.m */; };
+		219161C91AE5F9B9001A282B /* DoctorIntroduceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219161C71AE5F9B9001A282B /* DoctorIntroduceViewController.xib */; };
+		21ADCBE11AE49BA1006E79AB /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21ADCBDF1AE49BA1006E79AB /* WebViewController.m */; };
 		21BAF16C1ADCB824009147B5 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF16A1ADCB824009147B5 /* ForgetViewController.m */; };
 		21BAF16D1ADCB824009147B5 /* ForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21BAF16B1ADCB824009147B5 /* ForgetViewController.xib */; };
 		21BAF1711ADCBC55009147B5 /* ForgetViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF16F1ADCBC55009147B5 /* ForgetViewController2.m */; };
@@ -64,7 +74,6 @@
 		F8727E641AB3354200E29E21 /* FindMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8727E621AB3354200E29E21 /* FindMainViewController.xib */; };
 		F8727E681AB3355400E29E21 /* PersonMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8727E661AB3355400E29E21 /* PersonMainViewController.m */; };
 		F8727E691AB3355400E29E21 /* PersonMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8727E671AB3355400E29E21 /* PersonMainViewController.xib */; };
-		F889AB1D1AB56F0A0075A294 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F889AB1C1AB56F0A0075A294 /* WebViewController.m */; };
 		F889AB1F1AB570070075A294 /* leftBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F889AB1E1AB570070075A294 /* leftBack@2x.png */; };
 		F88F16A21AE3D7B800F11DC0 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F16901AE3D7B800F11DC0 /* AFHTTPRequestOperation.m */; };
 		F88F16A31AE3D7B800F11DC0 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F16921AE3D7B800F11DC0 /* AFHTTPRequestOperationManager.m */; };
@@ -111,6 +120,21 @@
 		21610E0B1ADB4F5F004CB9F2 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		21610E0F1ADB59F4004CB9F2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		21610E101ADB59F4004CB9F2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2176212E1AE6262C0089CFAD /* LookDoctorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookDoctorCell.h; sourceTree = "<group>"; };
+		2176212F1AE6262C0089CFAD /* LookDoctorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookDoctorCell.m; sourceTree = "<group>"; };
+		217621311AE632110089CFAD /* DoctorIntroduce.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DoctorIntroduce.plist; sourceTree = "<group>"; };
+		217621331AE6428E0089CFAD /* DoctorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorData.h; sourceTree = "<group>"; };
+		217621341AE6428E0089CFAD /* DoctorData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorData.m; sourceTree = "<group>"; };
+		218F0FD11AE5371C00B5912E /* doctor_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doctor_icon@2x.png"; sourceTree = "<group>"; };
+		218F0FD31AE537BB00B5912E /* LookDoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookDoctorViewController.h; sourceTree = "<group>"; };
+		218F0FD41AE537BB00B5912E /* LookDoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookDoctorViewController.m; sourceTree = "<group>"; };
+		218F0FD51AE537BB00B5912E /* LookDoctorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LookDoctorViewController.xib; sourceTree = "<group>"; };
+		219161BD1AE5E875001A282B /* LookDoctorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LookDoctorCell.xib; sourceTree = "<group>"; };
+		219161C51AE5F9B9001A282B /* DoctorIntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorIntroduceViewController.h; sourceTree = "<group>"; };
+		219161C61AE5F9B9001A282B /* DoctorIntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorIntroduceViewController.m; sourceTree = "<group>"; };
+		219161C71AE5F9B9001A282B /* DoctorIntroduceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorIntroduceViewController.xib; sourceTree = "<group>"; };
+		21ADCBDE1AE49BA1006E79AB /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		21ADCBDF1AE49BA1006E79AB /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		21BAF1691ADCB824009147B5 /* ForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
 		21BAF16A1ADCB824009147B5 /* ForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
 		21BAF16B1ADCB824009147B5 /* ForgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetViewController.xib; sourceTree = "<group>"; };
@@ -171,8 +195,6 @@
 		F8727E651AB3355400E29E21 /* PersonMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonMainViewController.h; sourceTree = "<group>"; };
 		F8727E661AB3355400E29E21 /* PersonMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonMainViewController.m; sourceTree = "<group>"; };
 		F8727E671AB3355400E29E21 /* PersonMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonMainViewController.xib; sourceTree = "<group>"; };
-		F889AB1B1AB56F0A0075A294 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		F889AB1C1AB56F0A0075A294 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		F889AB1E1AB570070075A294 /* leftBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftBack@2x.png"; sourceTree = "<group>"; };
 		F88F168F1AE3D7B800F11DC0 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		F88F16901AE3D7B800F11DC0 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
@@ -250,9 +272,19 @@
 			path = Dock;
 			sourceTree = "<group>";
 		};
+		217621361AE644420089CFAD /* DoctorInformation */ = {
+			isa = PBXGroup;
+			children = (
+				217621331AE6428E0089CFAD /* DoctorData.h */,
+				217621341AE6428E0089CFAD /* DoctorData.m */,
+			);
+			name = DoctorInformation;
+			sourceTree = "<group>";
+		};
 		F869B46E1AB5331500666FA2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				217621311AE632110089CFAD /* DoctorIntroduce.plist */,
 				21574A481ADBFDCE00C55CB7 /* Dock */,
 				F869B46F1AB5331500666FA2 /* Baby */,
 				F869B4701AB5331500666FA2 /* Cloud */,
@@ -273,6 +305,7 @@
 		F869B4701AB5331500666FA2 /* Cloud */ = {
 			isa = PBXGroup;
 			children = (
+				218F0FD11AE5371C00B5912E /* doctor_icon@2x.png */,
 				F83DB09A1AB5E1C100D78E80 /* top@2x.png */,
 				F83DB0981AB5E09A00D78E80 /* lookDoctor@2x.png */,
 				F83DB0961AB5DF3400D78E80 /* child@2x.png */,
@@ -398,8 +431,18 @@
 				F8727E531AB32F6C00E29E21 /* CloudMainViewController.h */,
 				F8727E541AB32F6C00E29E21 /* CloudMainViewController.m */,
 				F8727E551AB32F6C00E29E21 /* CloudMainViewController.xib */,
-				F889AB1B1AB56F0A0075A294 /* WebViewController.h */,
-				F889AB1C1AB56F0A0075A294 /* WebViewController.m */,
+				21ADCBDE1AE49BA1006E79AB /* WebViewController.h */,
+				21ADCBDF1AE49BA1006E79AB /* WebViewController.m */,
+				218F0FD31AE537BB00B5912E /* LookDoctorViewController.h */,
+				218F0FD41AE537BB00B5912E /* LookDoctorViewController.m */,
+				218F0FD51AE537BB00B5912E /* LookDoctorViewController.xib */,
+				219161C51AE5F9B9001A282B /* DoctorIntroduceViewController.h */,
+				219161C61AE5F9B9001A282B /* DoctorIntroduceViewController.m */,
+				219161C71AE5F9B9001A282B /* DoctorIntroduceViewController.xib */,
+				2176212E1AE6262C0089CFAD /* LookDoctorCell.h */,
+				2176212F1AE6262C0089CFAD /* LookDoctorCell.m */,
+				219161BD1AE5E875001A282B /* LookDoctorCell.xib */,
+				217621361AE644420089CFAD /* DoctorInformation */,
 			);
 			path = Cloud;
 			sourceTree = "<group>";
@@ -590,6 +633,8 @@
 				21574A841ADC012B00C55CB7 /* discover@2x.png in Resources */,
 				211E0F2A1ADD0254008A55CD /* RegisterViewController.xib in Resources */,
 				F869B4811AB5550B00666FA2 /* character@2x.png in Resources */,
+				219161BE1AE5E875001A282B /* LookDoctorCell.xib in Resources */,
+				218F0FD71AE537BB00B5912E /* LookDoctorViewController.xib in Resources */,
 				F889AB1F1AB570070075A294 /* leftBack@2x.png in Resources */,
 				F869B4791AB552AA00666FA2 /* doctor@2x.png in Resources */,
 				21574A471ADBFA0700C55CB7 /* icon_phone@2x.png in Resources */,
@@ -599,11 +644,14 @@
 				F8727E191AB327D800E29E21 /* Images.xcassets in Resources */,
 				F869B47F1AB5548D00666FA2 /* train@2x.png in Resources */,
 				F869B4751AB5332C00666FA2 /* hospital@2x.png in Resources */,
+				219161C91AE5F9B9001A282B /* DoctorIntroduceViewController.xib in Resources */,
+				218F0FD21AE5371C00B5912E /* doctor_icon@2x.png in Resources */,
 				2114AC181ADD509D00C21648 /* baby_selected@2x.png in Resources */,
 				21574A461ADBFA0700C55CB7 /* icon_lock@2x.png in Resources */,
 				F83DB0991AB5E09A00D78E80 /* lookDoctor@2x.png in Resources */,
 				F869B47B1AB5536500666FA2 /* information@2x.png in Resources */,
 				F83DB0971AB5DF3400D78E80 /* child@2x.png in Resources */,
+				217621321AE632110089CFAD /* DoctorIntroduce.plist in Resources */,
 				211E0F1A1ADCF9AE008A55CD /* logo@2x.png in Resources */,
 				21BAF16D1ADCB824009147B5 /* ForgetViewController.xib in Resources */,
 				F8727E641AB3354200E29E21 /* FindMainViewController.xib in Resources */,
@@ -642,18 +690,22 @@
 				F8727E631AB3354200E29E21 /* FindMainViewController.m in Sources */,
 				F8727E681AB3355400E29E21 /* PersonMainViewController.m in Sources */,
 				F8727E451AB32A5100E29E21 /* MainViewController.m in Sources */,
+				21ADCBE11AE49BA1006E79AB /* WebViewController.m in Sources */,
 				F88F16A61AE3D7B800F11DC0 /* AFSecurityPolicy.m in Sources */,
 				F88F16AA1AE3D7B800F11DC0 /* AFURLSessionManager.m in Sources */,
 				F8727E441AB32A5100E29E21 /* DockViewController.m in Sources */,
 				21610E121ADB59F4004CB9F2 /* LoginViewController.m in Sources */,
+				218F0FD61AE537BB00B5912E /* LookDoctorViewController.m in Sources */,
 				F88F16A41AE3D7B800F11DC0 /* AFHTTPSessionManager.m in Sources */,
 				F8727E4F1AB32D7800E29E21 /* Tools.m in Sources */,
 				F88F16A51AE3D7B800F11DC0 /* AFNetworkReachabilityManager.m in Sources */,
 				F8727E431AB32A5100E29E21 /* DockItem.m in Sources */,
+				217621301AE6262C0089CFAD /* LookDoctorCell.m in Sources */,
+				217621351AE6428E0089CFAD /* DoctorData.m in Sources */,
 				F88F16A31AE3D7B800F11DC0 /* AFHTTPRequestOperationManager.m in Sources */,
 				F88F16A81AE3D7B800F11DC0 /* AFURLRequestSerialization.m in Sources */,
 				F8727E4B1AB32B6400E29E21 /* NSString+WJ.m in Sources */,
-				F889AB1D1AB56F0A0075A294 /* WebViewController.m in Sources */,
+				219161C81AE5F9B9001A282B /* DoctorIntroduceViewController.m in Sources */,
 				F8727E0E1AB327D800E29E21 /* main.m in Sources */,
 				21BAF1711ADCBC55009147B5 /* ForgetViewController2.m in Sources */,
 				F83DB08D1AB5AAF800D78E80 /* ChoseBabyViewController.m in Sources */,

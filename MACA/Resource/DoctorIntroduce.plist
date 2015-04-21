@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>doctor_icon.png</string>
+		<key>name</key>
+		<string>小明</string>
+		<key>department</key>
+		<string>12345</string>
+		<key>position</key>
+		<string>普通医生</string>
+		<key>introduction</key>
+		<string>这是小明</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>doctor_icon.png</string>
+		<key>name</key>
+		<string>小王</string>
+		<key>department</key>
+		<string>内科</string>
+		<key>position</key>
+		<string>高级医生</string>
+		<key>introduction</key>
+		<string>这是小王</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>doctor_icon.png</string>
+		<key>name</key>
+		<string>小李</string>
+		<key>department</key>
+		<string>外科</string>
+		<key>position</key>
+		<string>主任医生</string>
+		<key>introduction</key>
+		<string>这是小李</string>
+	</dict>
+</array>
+</plist>

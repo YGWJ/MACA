@@ -22,9 +22,7 @@
 @interface PersonMainViewController () <UITableViewDelegate,UITableViewDataSource>
 {
     NSArray *_dataArray;
-
     IBOutlet UIImageView *_iconView;
-    
     IBOutlet UIButton *_registerBtn;
     IBOutlet UIButton *_loginBtn;
 }
