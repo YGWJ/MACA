@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "ServiceManage.h"
 
 @interface AppDelegate ()
 
@@ -24,6 +25,14 @@
     self.window.rootViewController = main;
     [self.window makeKeyAndVisible];
      NSLog(@"gerenzhongxin");
+    
+    
+    //网络请求的示例方法
+    [[ServiceManage shareInstance] DidRegister:@{@"username":@"xiaoming",@"password":@"xiaoming"} completion:^(ERROR_CODE code, id obj) {
+        NSLog(@"code   %d        obj    %@",code,obj);
+    }];
+    
+    
     return YES;
 }
 
