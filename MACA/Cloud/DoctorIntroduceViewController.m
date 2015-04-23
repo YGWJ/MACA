@@ -10,6 +10,7 @@
 #import "LookDoctorViewController.h"
 #import "LookDoctorCell.h"
 #import "DoctorData.h"
+#import "DetailViewController.h"
 
 @interface DoctorIntroduceViewController ()
 
@@ -57,6 +58,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//详细信息
+- (IBAction)detailBtnClick:(id)sender {
+    NSLog(@"详细信息");
+    DetailViewController *detail = [[DetailViewController alloc] init];
+    [self.navigationController pushViewController:detail animated:YES];
+}
+
+
 
 //"查看医生服务"按钮点击
 - (IBAction)doctorServiceClick:(id)sender {

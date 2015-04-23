@@ -10,4 +10,7 @@
 
 @interface CloudMainViewController : BaseViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *searchTF;
+
+
 @end

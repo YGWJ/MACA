@@ -35,6 +35,8 @@
 		219161BE1AE5E875001A282B /* LookDoctorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219161BD1AE5E875001A282B /* LookDoctorCell.xib */; };
 		219161C81AE5F9B9001A282B /* DoctorIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219161C61AE5F9B9001A282B /* DoctorIntroduceViewController.m */; };
 		219161C91AE5F9B9001A282B /* DoctorIntroduceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219161C71AE5F9B9001A282B /* DoctorIntroduceViewController.xib */; };
+		21A8E5D41AE8E680007F2266 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8E5D21AE8E680007F2266 /* DetailViewController.m */; };
+		21A8E5D51AE8E680007F2266 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A8E5D31AE8E680007F2266 /* DetailViewController.xib */; };
 		21ADCBE11AE49BA1006E79AB /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21ADCBDF1AE49BA1006E79AB /* WebViewController.m */; };
 		21BAF16C1ADCB824009147B5 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF16A1ADCB824009147B5 /* ForgetViewController.m */; };
 		21BAF16D1ADCB824009147B5 /* ForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21BAF16B1ADCB824009147B5 /* ForgetViewController.xib */; };
@@ -133,6 +135,9 @@
 		219161C51AE5F9B9001A282B /* DoctorIntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorIntroduceViewController.h; sourceTree = "<group>"; };
 		219161C61AE5F9B9001A282B /* DoctorIntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorIntroduceViewController.m; sourceTree = "<group>"; };
 		219161C71AE5F9B9001A282B /* DoctorIntroduceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorIntroduceViewController.xib; sourceTree = "<group>"; };
+		21A8E5D11AE8E680007F2266 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		21A8E5D21AE8E680007F2266 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		21A8E5D31AE8E680007F2266 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		21ADCBDE1AE49BA1006E79AB /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		21ADCBDF1AE49BA1006E79AB /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		21BAF1691ADCB824009147B5 /* ForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
@@ -279,6 +284,22 @@
 				217621341AE6428E0089CFAD /* DoctorData.m */,
 			);
 			name = DoctorInformation;
+			sourceTree = "<group>";
+		};
+		21A8E5CB1AE8E405007F2266 /* LookDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				218F0FD31AE537BB00B5912E /* LookDoctorViewController.h */,
+				218F0FD41AE537BB00B5912E /* LookDoctorViewController.m */,
+				218F0FD51AE537BB00B5912E /* LookDoctorViewController.xib */,
+				219161C51AE5F9B9001A282B /* DoctorIntroduceViewController.h */,
+				219161C61AE5F9B9001A282B /* DoctorIntroduceViewController.m */,
+				219161C71AE5F9B9001A282B /* DoctorIntroduceViewController.xib */,
+				21A8E5D11AE8E680007F2266 /* DetailViewController.h */,
+				21A8E5D21AE8E680007F2266 /* DetailViewController.m */,
+				21A8E5D31AE8E680007F2266 /* DetailViewController.xib */,
+			);
+			name = LookDoctor;
 			sourceTree = "<group>";
 		};
 		F869B46E1AB5331500666FA2 /* Resource */ = {
@@ -428,17 +449,12 @@
 		F8727E321AB3296E00E29E21 /* Cloud */ = {
 			isa = PBXGroup;
 			children = (
+				21A8E5CB1AE8E405007F2266 /* LookDoctor */,
 				F8727E531AB32F6C00E29E21 /* CloudMainViewController.h */,
 				F8727E541AB32F6C00E29E21 /* CloudMainViewController.m */,
 				F8727E551AB32F6C00E29E21 /* CloudMainViewController.xib */,
 				21ADCBDE1AE49BA1006E79AB /* WebViewController.h */,
 				21ADCBDF1AE49BA1006E79AB /* WebViewController.m */,
-				218F0FD31AE537BB00B5912E /* LookDoctorViewController.h */,
-				218F0FD41AE537BB00B5912E /* LookDoctorViewController.m */,
-				218F0FD51AE537BB00B5912E /* LookDoctorViewController.xib */,
-				219161C51AE5F9B9001A282B /* DoctorIntroduceViewController.h */,
-				219161C61AE5F9B9001A282B /* DoctorIntroduceViewController.m */,
-				219161C71AE5F9B9001A282B /* DoctorIntroduceViewController.xib */,
 				2176212E1AE6262C0089CFAD /* LookDoctorCell.h */,
 				2176212F1AE6262C0089CFAD /* LookDoctorCell.m */,
 				219161BD1AE5E875001A282B /* LookDoctorCell.xib */,
@@ -658,6 +674,7 @@
 				21574A851ADC012B00C55CB7 /* home_selected@2x.png in Resources */,
 				F8727E571AB32F6C00E29E21 /* CloudMainViewController.xib in Resources */,
 				211E0F1E1ADCFAB3008A55CD /* personIcon@2x.png in Resources */,
+				21A8E5D51AE8E680007F2266 /* DetailViewController.xib in Resources */,
 				2114AC1D1ADD566E00C21648 /* AboutViewController.xib in Resources */,
 				21574A861ADC012B00C55CB7 /* home@2x.png in Resources */,
 			);
@@ -686,6 +703,7 @@
 				F8727E421AB32A5100E29E21 /* Dock.m in Sources */,
 				21610E0D1ADB4F5F004CB9F2 /* RegisterViewController.m in Sources */,
 				F8727E521AB32F5D00E29E21 /* BaseViewController.m in Sources */,
+				21A8E5D41AE8E680007F2266 /* DetailViewController.m in Sources */,
 				F83DB0901AB5AFFA00D78E80 /* AddBabyViewController.m in Sources */,
 				F8727E631AB3354200E29E21 /* FindMainViewController.m in Sources */,
 				F8727E681AB3355400E29E21 /* PersonMainViewController.m in Sources */,

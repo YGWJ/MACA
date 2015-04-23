@@ -7,9 +7,14 @@
 //
 
 #import "RegisterViewController.h"
+#import "ServiceManage.h"
 
-@interface RegisterViewController ()
+@interface RegisterViewController () <UITextFieldDelegate>
 
+{
+    NSDictionary *dict1;//试用
+    
+}
 @end
 
 @implementation RegisterViewController
@@ -57,12 +62,18 @@
 
 }
 
-
-- (IBAction)regiterBtnClick:(id)sender {
-    NSLog(@"注册");
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return  YES;
 }
 
-
+- (IBAction)regiterBtnClick:(id)sender {
+//    [[ServiceManage shareInstance] DidRegister:dict1 completion:<#^(ERROR_CODE code, id obj)callBack#>{
+//    
+//    }]
+}
+ 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

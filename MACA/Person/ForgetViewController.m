@@ -9,7 +9,7 @@
 #import "ForgetViewController.h"
 #import "ForgetViewController2.h"
 
-@interface ForgetViewController ()
+@interface ForgetViewController () <UITextFieldDelegate>
 @end
 
 @implementation ForgetViewController
@@ -24,17 +24,30 @@
 
 - (void)addUI
 {
+    self.title = @"忘记密码";
+    //
     _phoneNumTF.placeholder = @"手机号";
     [_phoneNumTF setBorderStyle:UITextBorderStyleRoundedRect];
     UIImageView *phoneImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"icon_phone.png"]];
     _phoneNumTF.leftView = phoneImg;
     _phoneNumTF.leftViewMode = UITextFieldViewModeAlways;
-    
+    //
     _iCodeTF.placeholder = @"输入验证码";
     [_iCodeTF setBorderStyle:UITextBorderStyleRoundedRect];
-    
+    //
     [_nextBtn.layer setMasksToBounds:YES];
     [_nextBtn.layer setCornerRadius:10.0];
+    //
+    UIButton *itemBtn4 = [[UIButton alloc] initWithFrame:CGRectMake(17, 5, 10.5, 18)];
+    [itemBtn4 setBackgroundImage:[UIImage imageNamed:@"leftBack.png"] forState:UIControlStateNormal];
+    [itemBtn4 addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *back = [[UIBarButtonItem alloc] initWithCustomView:itemBtn4];
+    self.navigationItem.leftBarButtonItem= back;
+}
+
+- (void) back
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 //点击获取验证码按钮
@@ -53,6 +66,11 @@
     [self.navigationController pushViewController:forgetVC2 animated:YES];
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
 
 
 - (void)didReceiveMemoryWarning {

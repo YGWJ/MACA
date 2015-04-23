@@ -27,7 +27,6 @@
     [self addUI];
     //加载Plist
     [self loadPlist];
-    
 }
 
 - (void)addUI

@@ -38,6 +38,8 @@
     return serviceManage;
 }
 
+
+
 //请求基类
 -(void)requestMethod:(NSString*)method serviceName:(NSString*)service parmers:(NSDictionary*)parmers completeBlock:(void (^)(id obj)) callBack{
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
@@ -104,6 +106,7 @@
         callBack(code, obj);
     }];
 }
+
 
 //登录
 -(void)DidLogin:(NSDictionary*)parmers completion:(void (^)(ERROR_CODE code, id obj)) callBack
